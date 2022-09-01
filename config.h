@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=12:antialias=true:autohint=true";
-static char *font2[] = { "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true" };
+static char *font = "mono:pixelsize=18:antialias=true:autohint=true";
+static char *font2[] = { "FontAwesome:pixelsize=16:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -104,7 +104,7 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 8;
+unsigned int tabspaces = 4;
 
 /* bg opacity */
 float alpha = 0.8;
@@ -113,22 +113,26 @@ float alphaUnfocus;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#cc241d",
-	"#98971a",
-	"#d79921",
-	"#458588",
-	"#b16286",
-	"#689d6a",
-	"#a89984",
-	"#928374",
-	"#fb4934",
-	"#b8bb26",
-	"#fabd2f",
-	"#83a598",
-	"#d3869b",
-	"#8ec07c",
-	"#ebdbb2",
+	/* 8 normal colors */
+	"#1d2021",	// black
+	"#cc241d",	// red
+	"#1a9897",	// cyan
+	"#d79921",	// orange
+	"#458588",	// blue
+	"#b16286",	// magenta
+	"#689d6a",	// green
+	"#a89984",	// gray
+
+	/* 8 bright colors */
+	"#928474",	// gray
+	"#fb4934",	// red
+	"#26b8bb",	// cyan
+	"#fabd2f",	// orange
+	"#83a598",	// blue
+	"#d3869b",	// magenta
+	"#8ec07c",	// green
+	"#ebdbb2",	// white
+
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#add8e6", /* 256 -> cursor */

@@ -115,21 +115,21 @@ float alphaUnfocus;
 static const char *colorname[] = {
 	/* 8 normal colors */
 	"#1d2021",	// black
-	"#cc241d",	// red
+	"#e4444f",	// red
 	"#40bf75",	// green
-	"#d79921",	// orange
+	"#fb8162",	// orange
 	"#458588",	// blue
-	"#d61c61",	// magenta
+	"#e84d7b",	// magenta
 	"#1a9897",	// cyan
 	"#a89984",	// gray
 
 	/* 8 bright colors */
 	"#928474",	// gray
-	"#fb4934",	// red
+	"#ff546a",	// red
 	"#33d075",	// green
-	"#fabd2f",	// orange
+	"#fb9062",	// orange
 	"#83a598",	// blue
-	"#ee206c",	// magenta
+	"#ff4d81",	// magenta
 	"#26b8bb",	// cyan
 	"#ebdbb2",	// white
 

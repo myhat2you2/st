@@ -1,0 +1,43 @@
+! SXIV
+Sxiv.background:    #282828
+Sxiv.foreground:    #458588
+
+! Transparency (0-1):
+st.alpha: 0.92
+st.alphaOffset: 0.3
+
+!! Set a default font and font size as below:
+stfont: monospace:size=15
+
+st.termname: st-256color
+st.borderpx: 2
+
+!! Set the background, foreground and cursor colors as below:
+
+!! hex: */
+*.foreground:  #ebdbb2
+*.background:  #282828
+!! black
+*.color0:      #1d2021
+*.color8:      #928474
+!! red
+*.color1:      #e4444f
+*.color9:      #ff546a
+!! green
+*.color2:      #40bf75
+*.color10:     #33d075
+!! orange
+*.color3:      #fb8162
+*.color11:     #fb9062
+!! blue
+*.color4:      #458588
+*.color12:     #83a598
+!! magenta
+*.color5:      #e84d7b
+*.color13:     #ff4d81
+!! cyan
+*.color6:      #1a9897
+*.color14:     #26b8bb
+!! white
+*.color7:      #a89984
+*.color15:     #ebdbb2
